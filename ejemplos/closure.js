@@ -20,5 +20,4 @@ const calcualdor6 = crear (6);
 //console.log(calcualdor6.porDos());
 
 // los metodos creados con closures no pierden nunca el acceso al objeto propietario
-
 setTimeout(calcualdor6.porDos, 2000)
