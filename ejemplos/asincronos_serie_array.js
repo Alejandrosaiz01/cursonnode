@@ -13,7 +13,7 @@ function escribeTras2Segundos(texto, callback) {
 //bucle asincrono en serie
 //llamar a una funcion con cada elemento de un array en seria y al terminar llamar al callback de finalizacion
 function serie(arr, fn,callbackFinalizacion){
-    if (arr.length == 0){
+    if (arr.length === 0){
         callbackFinalizacion();
         return;
     }
