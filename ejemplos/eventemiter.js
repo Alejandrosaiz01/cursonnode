@@ -2,7 +2,6 @@
 
 //crear emisor de eventos
 const EventEmitter = require('events');
-
 const emisor = new EventEmitter();
 
 const EVENT_LLAMADA_TELEFONO = 'llamada de telefono';
@@ -11,7 +10,7 @@ const EVENT_LLAMADA_TELEFONO = 'llamada de telefono';
 
 //actuar ante eventos
 emisor.on(EVENT_LLAMADA_TELEFONO, info => {
-    if (Infinity.llamante === 'madre') {
+    if (info.llamante === 'madre') {
         return;
     }
    console.log('ring ring'); 
