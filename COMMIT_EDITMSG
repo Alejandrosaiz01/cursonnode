@@ -1,1 +1,17 @@
-a ver si van algun lado
+Node api1
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#	new file:   nodeapi/.gitignore
+#	new file:   nodeapi/app.js
+#	new file:   nodeapi/bin/www
+#	new file:   nodeapi/package-lock.json
+#	new file:   nodeapi/package.json
+#	new file:   nodeapi/public/stylesheets/style.css
+#	new file:   nodeapi/routes/index.js
+#	new file:   nodeapi/routes/users.js
+#	new file:   nodeapi/views/error.ejs
+#	new file:   nodeapi/views/index.ejs
+#
